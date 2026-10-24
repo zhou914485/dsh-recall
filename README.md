@@ -31,7 +31,7 @@
 `client.js`（浏览器侧）。
 
 ```bash
-git clone https://github.com/Jingbo-Zhou/dsh-recall.git
+git clone https://github.com/zhou914485/dsh-recall.git
 ```
 
 装进 DSH 有两种方式：
