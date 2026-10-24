@@ -1,0 +1,4 @@
+{
+  "title": "Message Recall",
+  "description": "Recall a mistyped or half-finished message: the model forgets it, the transcript collapses it, and the text returns to the composer."
+}

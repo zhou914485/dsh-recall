@@ -1,0 +1,4 @@
+# dsh-recall bundle：Host half（RPC 通道 + 会话日志墓碑），UI 全在 client。
+- insert:
+    - id: dsh-recall
+      name: '@local/dsh-recall'

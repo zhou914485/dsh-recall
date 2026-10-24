@@ -1,0 +1,35 @@
+{
+  "name": "@local/dsh-recall",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "撤回会话里的一条消息：模型忘记它，界面收起它，文字回到输入框。",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "meta": {
+    "title": "消息撤回",
+    "description": "撤回发错或没打完的一条消息：模型历史里抹掉它，对话界面收起它，原文回到输入框。"
+  }
+}
