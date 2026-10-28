@@ -1,6 +1,6 @@
 {
   "name": "@local/dsh-recall",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "撤回会话里的一条消息：模型忘记它，界面收起它，文字回到输入框。",
